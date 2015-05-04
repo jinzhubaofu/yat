@@ -9,7 +9,18 @@
   "author": "ludafa@outlook.com",
   "license": "ISC",
   "dependencies": {
+    "flux": "^2.0.3",
+    "fs-promise": "^0.3.1",
+    "immutable.js": "^1.1.2",
+    "lodash": "^3.7.0",
+    "nib": "^1.1.0",
+    "node-jsx": "^0.13.3",
+    "radium": "^0.11.1",
+    "react": "^0.13.2",
+    "react-materialize": "^0.1.0",
     "react-tools": "^0.13.2",
+    "stylus": "^0.51.1",
+    "underscore": "^1.8.3",
     "when": "^3.7.3"
   }
 }

@@ -1,1 +1,23 @@
 @require '../common/css/reset.styl'
+@require '../common/css/icon.styl'
+main
+    position: fixed
+    top 0
+    left 0
+    right 0
+    bottom 0
+    display flex
+    flex-direction row
+    align-items stretch
+
+    > section
+        transition width 3s ease-out
+
+@require './css/ProjectBox.styl'
+@require './css/ToboBox.styl'
+@require './css/DetailContainer.styl'
+
+/* Too narrow to support three columns */
+@media all and (max-width: 640px)
+    main
+        flex-flow column
